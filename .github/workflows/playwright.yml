@@ -1,9 +1,11 @@
 name: Playwright Tests
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
+  workflow_dispatch: 
+  # automatically triggering the pipeline 
+  # push:
+  #   branches: [ main ]
+  # pull_request:
 
 jobs:
   test:
