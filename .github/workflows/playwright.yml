@@ -5,7 +5,8 @@ on:
   # automatically triggering the pipeline 
   # push:
   #   branches: [ main ]
-  # pull_request:
+  pull_request:
+    branches: [ main ]
 
 jobs:
   test:
